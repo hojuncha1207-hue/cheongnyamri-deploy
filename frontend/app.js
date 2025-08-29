@@ -2,7 +2,7 @@
 (() => {
 
     // ==================== API 서버 주소 (이 부분을 추가하세요!) ====================
-    const API_BASE_URL = 'http://https://cheongnyamri-app.onrender.com'; // 예시 서버 주소입니다.
+    const API_BASE_URL = 'https://cheongnyamri-deploy.onrender.com'; // 예시 서버 주소입니다.
 
     // ==================== EMOJI NORMALIZATION UTILITY ====================
     const ALIASES = {
@@ -567,3 +567,4 @@
     window.showPromptBox = showPromptBox;
     window.setMarketMapUrl = setMarketMapUrl;
 })();
+

@@ -1,0 +1,18 @@
+{
+  "name": "market-backend",
+  "version": "1.0.0",
+  "description": "\uccad\ub0e0\ub9ac \ud504\ub85c\uc81d\ud2b8 \ubc31\uc5d4\ub4dc (Express + NeonDB + QRCode)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.1"
+  }
+}
